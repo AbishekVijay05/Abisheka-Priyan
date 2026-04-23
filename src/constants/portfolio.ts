@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import skillSphereImg from "../components/layout/image.png";
+import secureImage from "../components/layout/secure.png"
 export const PERSONAL_INFO = {
   name: "Abisheka Priyan",
   role: "Computer Science Student",
@@ -27,7 +29,7 @@ export const PROJECTS = [
     title: "Skill Sphere",
     description: "A teammate recruiting platform for college students to collaborate on hackathons and research.",
     fullDescription: "Skill Sphere is a platform designed to simplify the process of finding the right teammates for technical events. It handles student profiles, project requirements, and provides a centralized hub for recruitment in collegiate environments.",
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200",
+    image: skillSphereImg,
     tags: ["Python", "Flask", "HTML/CSS"],
     role: "Backend Lead",
     timeline: "Sep 2025",
@@ -53,7 +55,7 @@ def recruit_member():
     title: "Secure Data Wiping",
     description: "Low-level software project to prevent recovery of deleted data using C and Python.",
     fullDescription: "An advanced data security tool that ensures deleted files are truly unrecoverable. It overwrites disk sectors with specific patterns, neutralizing forensic data recovery methods.",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc48?auto=format&fit=crop&q=80&w=1200",
+    image: secureImage ,
     tags: ["C", "Python", "Security"],
     role: "Core Developer",
     timeline: "Sep 2025",

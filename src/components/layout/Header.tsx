@@ -20,7 +20,7 @@ export default function Header() {
   const navLinks = [
     { name: "Projects", path: "/projects" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "#contact" },
+    { name: "Contact", path: "mailto:abishekvijay05@gmail.com" },
   ];
 
   return (
