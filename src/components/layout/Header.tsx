@@ -23,6 +23,8 @@ export default function Header() {
     { name: "Contact", path: "mailto:abishekvijay05@gmail.com" },
   ];
 
+  const isHomePage = location.pathname === "/";
+
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -30,8 +32,13 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold tracking-tight text-[#1D1D1F]">
-          CS Portfolio
+        <Link 
+          to="/" 
+          className={`text-xl font-bold tracking-tight text-[#1D1D1F] transition-opacity duration-300 ${
+            isHomePage ? "opacity-0 pointer-events-none" : "opacity-100"
+          }`}
+        >
+          {PERSONAL_INFO.name}
         </Link>
 
         {/* Desktop Nav */}

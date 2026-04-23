@@ -16,7 +16,7 @@ export default function About() {
               className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-surface-gray border border-outline-variant"
             >
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+                src="https://avatars.githubusercontent.com/u/122863441?v=4"
                 alt="Profile"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

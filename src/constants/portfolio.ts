@@ -5,6 +5,8 @@
 
 import skillSphereImg from "../components/layout/image.png";
 import secureImage from "../components/layout/secure.png"
+import staffConnectImg from "../components/layout/new.png"
+
 export const PERSONAL_INFO = {
   name: "Abisheka Priyan",
   role: "Computer Science Student",
@@ -13,8 +15,8 @@ export const PERSONAL_INFO = {
   email: "abishekvijay05@gmail.com",
   phone: "+91 8015806129",
   github: "https://github.com/AbishekVijay05",
-  linkedin: "#",
-  twitter: "#",
+  linkedin: "https://in.linkedin.com/in/abisheka-priyan-v-6283ab311&ved=2ahUKEwjK7eOUhISUAxUMRWwGHQR2IxUQFnoECEIQAQ&usg=AOvVaw2VHGAk8kaEzPJ9XPvnhY6E",
+  
 };
 
 export const SKILLS = {
@@ -82,7 +84,7 @@ void secure_erase(const char* path) {
     title: "StaffConnect",
     description: "A role-based mobile application for centralized employee services and administrative management.",
     fullDescription: "StaffConnect (internally UnifiedEmployeeService) is a React Native mobile application designed as a centralized portal for employees, managers, and administrators. It provides a tailored experience to manage leaves, IT support, and HR tasks with a unified Material Design aesthetic.",
-    image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&q=80&w=1200",
+    image: staffConnectImg,
     tags: ["React Native", "Redux", "Material Design"],
     role: "Lead Developer",
     timeline: "Apr 2026",

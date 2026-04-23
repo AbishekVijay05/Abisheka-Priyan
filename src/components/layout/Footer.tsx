@@ -14,7 +14,6 @@ export default function Footer() {
           {[
             { name: "GitHub", url: PERSONAL_INFO.github },
             { name: "LinkedIn", url: PERSONAL_INFO.linkedin },
-            { name: "Twitter", url: PERSONAL_INFO.twitter },
             { name: "Email", url: `mailto:${PERSONAL_INFO.email}` },
           ].map((social) => (
             <a
