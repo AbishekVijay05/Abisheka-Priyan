@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Download, ArrowRight } from "lucide-react";
 import { PERSONAL_INFO } from "../constants/portfolio";
+import ResumeFile from "./Resume.pdf"; // Ensure this path is correct and the file exists
 
 export default function Home() {
   return (
@@ -24,8 +25,9 @@ export default function Home() {
             View Projects <ArrowRight size={20} />
           </Link>
           <a
-            href="/Resume.pdf"
+            href="https://drive.google.com/file/d/1Frk2v_abnrZwnO5LXAJmqznaZP-0aZlo/view?usp=sharing"
             className="btn-secondary"
+            
           >
             Download Resume <Download size={18} />
           </a>
