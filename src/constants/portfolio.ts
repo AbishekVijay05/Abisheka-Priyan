@@ -15,10 +15,10 @@ export const PERSONAL_INFO = {
   email: "abishekvijay05@gmail.com",
   phone: "+91 8015806129",
   github: "https://github.com/AbishekVijay05",
-  linkedin: "https://in.linkedin.com/in/abisheka-priyan-v-6283ab311&ved=2ahUKEwjK7eOUhISUAxUMRWwGHQR2IxUQFnoECEIQAQ&usg=AOvVaw2VHGAk8kaEzPJ9XPvnhY6E",
+  linkedin: "in/abisheka-priyan-v-6283ab311",
   
 };
-
+  
 export const SKILLS = {
   languages: ["Java", "Python", "OOP", "PHP", "C", "C++", "JavaScript"],
   frameworks: ["React", "Flask", "HTML", "CSS"],
