@@ -91,7 +91,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1Frk2v_abnrZwnO5LXAJmqznaZP-0aZlo/view?usp=sharing"
               className="bg-accent-blue text-white px-6 py-3 rounded-xl font-semibold text-center"
             >
               Resume
