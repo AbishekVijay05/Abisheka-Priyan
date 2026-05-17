@@ -25,7 +25,7 @@ export default function Home() {
             View Projects <ArrowRight size={20} />
           </Link>
           <a
-            href="https://drive.google.com/file/d/1Frk2v_abnrZwnO5LXAJmqznaZP-0aZlo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xoVz7Wac4x1WKlokafP__YiO8_mWHtmK/view?usp=sharing"
             className="btn-secondary"
             
           >
