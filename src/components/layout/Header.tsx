@@ -55,7 +55,7 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="https://drive.google.com/file/d/1xoVz7Wac4x1WKlokafP__YiO8_mWHtmK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ekaM6OvVNx9z6Fid9-jFE9Sf5RgT7n0N/view?usp=sharing"
             className="flex items-center gap-2 text-accent-blue font-semibold hover:opacity-80 transition-opacity text-sm ml-4"
           >
             Resume <ArrowRight size={14} />
